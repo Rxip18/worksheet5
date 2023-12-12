@@ -264,3 +264,24 @@ footer{
     color: white;
     padding: 10px 0px;
 }
+
+.button-one-section {
+    background-color: cornflowerblue;
+    padding: 20px,0px;
+    flex-wrap: wrap;
+  
+ 
+   
+
+}
+
+.button-top-img{ 
+    border: 3px solid white;
+    border-radius: 20px 0px;
+    box-shadow: 10px 10px 20px black;
+    width: 70%;
+    
+    
+
+} 
+
