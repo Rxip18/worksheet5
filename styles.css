@@ -1,14 +1,16 @@
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
+    font-family: "ltr-federal-bureau-12-horiz", sans-serif;
+font-weight: 800;
+font-style: normal;
     text-align: center;
+    font-size: 80px;
 }
 
 ul{
     list-style-type: none;
     padding: 5px;
 }
-
+s
 .container-navigation{
     display: flex;
     flex-wrap: wrap;
@@ -97,13 +99,13 @@ li{
 
 
 body{
-    background-color: limegreen;
+    background-color: #f2f2f2;
 }
 
 /* header sytles */
 
 header {
-    background-color: hotpink;
+    background-color: #F29F05;
     padding: 10px 0px 10px 0px;
     
     
@@ -150,7 +152,7 @@ header {
 /* section 2 center item */
 
 .section-two {
-    background-color: orangered;
+    background-color: #bf0426;
     height: 700px;
     display: flex;
     align-items: center;
@@ -161,7 +163,7 @@ header {
 /* section 3 youtube video */
 
 .section-three {
-    background-color: lightcoral;
+    background-color: #d95a11;
     height: 800px;
     display: flex;
     align-items: center;
@@ -197,7 +199,7 @@ iframe {
 /* section 4 embed audio */
 
 .section-four {
-    background-color: darkslateblue;
+    background-color: #bf0426;
     height: 500px;
     display: flex;
     align-items: center;
@@ -207,7 +209,7 @@ iframe {
 /* section 5 media items */
 
 .section-five {
-    background-color: goldenrod;
+    background-color: #d95a11;
     height: 1400px;
     
     
@@ -228,7 +230,7 @@ iframe {
 
 .mediacontent{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(131, 131, 131);
+    color: blue;
     font-size: 20px;
  }
 
@@ -256,19 +258,23 @@ button{
 }
 
 footer{
-    background-color: rebeccapurple;
+    background-color: #F29F05;
     height: 30px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-small;
     color: white;
     padding: 10px 0px;
+    justify-content: center;
 }
 
 .button-one-section {
-    background-color: cornflowerblue;
+    background-color: #bf0426;
     padding: 20px,0px;
-    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   
+   
   
  
    
@@ -279,9 +285,9 @@ footer{
     border: 3px solid white;
     border-radius: 20px 0px;
     box-shadow: 10px 10px 20px black;
-    width: 70%;
-    
-    
-
+    width: 40%;
+  display: flex;
+   
+  
 } 
 
